@@ -3,6 +3,8 @@
 ![Python](https://img.shields.io/badge/python-3.10+-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
+**Repository:** [github.com/Holmesberg/EEG-emotion-recognition-DEAP](https://github.com/Holmesberg/EEG-emotion-recognition-DEAP)
+
 Binary **valence** (high vs low) classification on the [DEAP](https://www.eecs.qmul.ac.uk/mmv/datasets/deap/) EEG using **differential entropy (DE)** features and a gradient boosting classifier. The pipeline contrasts a random train/test split (subject leakage) with **GroupKFold** by subject—the correct framing for **generalization to new users**.
 
 ## Key innovation
